@@ -1,0 +1,5 @@
+PORT=5000
+NODE_ENV=development
+JWT_SECRET=my_super_secret_key_for_vinotes
+MONGO_URI=
+JWT_EXPIRE=24h
