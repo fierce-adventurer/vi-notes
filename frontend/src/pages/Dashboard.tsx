@@ -151,7 +151,7 @@ const Dashboard = ({ isDarkMode, setIsDarkMode }: DashboardProps) => {
         <div className="flex-1 overflow-y-auto p-2 space-y-1">
           <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider px-2 mb-2 mt-2">
             {isAuthenticated ? 'Recent Files' : 'Cloud Sync Off'}
-          
+          </p>
           {isAuthenticated ? (
             sessions.map((session) => (
               <div 
