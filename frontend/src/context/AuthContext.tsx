@@ -18,7 +18,7 @@ export const api = axios.create({
 
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [token, setToken] = useState<string | null>(localStorage.getItem('token'));
-  const [username, setUsername] = useState<string | null>(localStorage.getItem('username')); // <-- Add this state
+  const [username, setUsername] = useState<string | null>(localStorage.getItem('username'));
 
   useEffect(() => {
     if (token) {
